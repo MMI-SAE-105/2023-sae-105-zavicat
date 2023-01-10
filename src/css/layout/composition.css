@@ -34,3 +34,12 @@ img {
     width: 320px;
     display: flex;
 }
+
+.line-spacer {
+    border: none;
+    border-top: 4px dashed var(--white);
+    background-color: transparent;
+    width: 200px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
