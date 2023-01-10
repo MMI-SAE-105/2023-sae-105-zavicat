@@ -1,5 +1,7 @@
 body {
     background-color: var(--black);
+    color: var(--white);
+    padding: 20px;
 }
 
 h1,
