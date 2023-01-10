@@ -8,17 +8,50 @@
     <title>Accueil - StijlExpo</title>
     <link rel="stylesheet" href="../src/css/style.css">
     <script defer src="https://unpkg.com/alpinejs"></script>
+
 </head>
 
 <header>
+
     <div class="header-container">
         <div class="header-logo">
             <img src="../public/img/icones/logo.svg" alt="logo StijlExpo">
             <h3>StijlExpo</h3>
         </div>
         <div aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header-menu-icone">
-        <img src="../public/img/icones/menu-icone.svg" alt="menu">
+            <img src="../public/img/icones/menu-icone.svg" alt="menu">
+
             <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
+                <ul>
+                    <div class="menu-component-1">
+                        <h2>MENU</h2>
+                        <li>
+                            <h3>Accueil</h3>
+                        </li>
+                    </div>
+                    <div class="menu-component-2">
+                        <li>
+
+                            <h3>Le mouvement De Stijl</h3>
+                        </li>
+                        <li>
+                            <h3>Les artistes</h3>
+                        </li>
+                    </div>
+                    <div class="menu-component-3">
+                        <li>
+                            <h3>Les oeuvres</h3>
+                        </li>
+                        <li>
+                            <h3>Infos pratiques</h3>
+                        </li>
+                        <li>
+                            <h3>Contact</h3>
+                        </li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
     </div>
     <hr>
 </header>
