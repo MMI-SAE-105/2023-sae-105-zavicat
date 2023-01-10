@@ -18,3 +18,63 @@
 .noscroll body {
     overflow: hidden;
 }
+
+.menu-title {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.menu-header-logo {
+    grid-area: 1 / 1 / 2 / 4;
+}
+
+.menu-header-icon {
+    grid-area: 1 / 4 / 2 / 6;
+}
+
+.menu-title {
+    grid-area: 2 / 1 / 3 / 6;
+}
+
+.menu-home {
+    grid-area: 3 / 1 / 4 / 6;
+}
+
+.menu-presentation {
+    grid-area: 4 / 1 / 5 / 6;
+}
+
+.menu-artists {
+    grid-area: 5 / 1 / 6 / 5;
+}
+
+.menu-contact {
+    grid-area: 6 / 1 / 7 / 4;
+}
+
+.menu-infos {
+    grid-area: 7 / 2 / 8 / 6;
+}
+
+.menu-artworks {
+    grid-area: 8 / 1 / 9 / 6;
+}
+
+.menu-component-1 {
+    grid-area: 2 / 1 / 4 / 4;
+}
+
+.menu-component-2 {
+    grid-area: 4 / 1 / 6 / 4;
+}
+
+.menu-component-3 {
+    grid-area: 5 / 1 / 9 / 6;
+}
