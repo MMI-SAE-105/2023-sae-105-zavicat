@@ -1,3 +1,4 @@
+/*Header*/
 .header-container {
     margin-top: 10px;
     display: flex;
@@ -10,6 +11,7 @@
     gap: 20px;
 }
 
+/*Hader line spacer*/
 hr {
     max-width: 100%;
     height: 5px;
@@ -17,15 +19,11 @@ hr {
     border: none;
 }
 
-
+/*Header cover image settings*/
 .header-cover {
     display: flex;
     justify-content: center;
     margin-top: 10px;
-}
-
-img {
-    max-width: 100%
 }
 
 .cover-img {
@@ -35,6 +33,12 @@ img {
     display: flex;
 }
 
+/*Default images settings*/
+img {
+    max-width: 100%
+}
+
+/*Global line spacers*/
 .line-spacer {
     border: none;
     border-top: 4px dashed var(--white);
@@ -42,31 +46,4 @@ img {
     width: 200px;
     margin-top: 70px;
     margin-bottom: 70px;
-}
-
-.line-component {
-    display: flex;
-    align-items: center;
-    width: 375px;
-    height: 8px;
-    z-index: -1;
-}
-
-.line-red {
-    background-color: var(--red);
-}
-
-.line-blue {
-    background-color: var(--blue);
-}
-
-.line-yellow {
-    background-color: var(--yellow);
-}
-
-h2 {
-    padding: 10px;
-    display: inline-block;
-    background-color: var(--black);
-    z-index: 2;
 }
