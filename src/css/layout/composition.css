@@ -43,3 +43,19 @@ img {
     margin-top: 70px;
     margin-bottom: 70px;
 }
+
+.line-red {
+    display: flex;
+    align-items: center;
+    width: 375px;
+    height: 8px;
+    background-color: red;
+    z-index: -1;
+}
+
+h2 {
+    padding: 10px;
+    display: inline-block;
+    background-color: var(--black);
+    z-index: 2;
+}
