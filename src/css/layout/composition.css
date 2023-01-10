@@ -44,13 +44,24 @@ img {
     margin-bottom: 70px;
 }
 
-.line-red {
+.line-component {
     display: flex;
     align-items: center;
     width: 375px;
     height: 8px;
-    background-color: red;
     z-index: -1;
+}
+
+.line-red {
+    background-color: var(--red);
+}
+
+.line-blue {
+    background-color: var(--blue);
+}
+
+.line-yellow {
+    background-color: var(--yellow);
 }
 
 h2 {
