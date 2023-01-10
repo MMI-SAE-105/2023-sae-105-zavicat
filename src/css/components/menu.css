@@ -13,3 +13,8 @@
     position: relative;
     z-index: 10;
 }
+
+.noscroll,
+.noscroll body {
+    overflow: hidden;
+}
