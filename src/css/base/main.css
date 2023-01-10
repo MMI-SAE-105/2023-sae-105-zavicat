@@ -1,0 +1,57 @@
+h1,
+h3,
+.button-text {
+    font-family: "Montserrat";
+}
+
+h2,
+.intro,
+p,
+.legend {
+    font-family: "Helvetica";
+}
+
+h1 {
+    line-height: 86%;
+    font-weight: 900;
+    font-size: var(--h1);
+}
+
+h2 {
+    font-size: var(--h2);
+}
+
+h3 {
+    font-size: var(--h3);
+}
+
+p {
+    font-size: var(--body-m);
+}
+
+.intro {
+    font-size: var(--body-intro);
+}
+
+.legend {
+    font-size: var(--body-legend);
+}
+
+h2,
+h3,
+.intro,
+.button-text,
+p,
+.legend {
+    line-height: 128%;
+}
+
+h2,
+h3,
+.button {
+    font-weight: bold;
+}
+
+.legend {
+    font-weight: thin;
+}

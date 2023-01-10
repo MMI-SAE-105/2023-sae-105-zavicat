@@ -1,0 +1,17 @@
+:root {
+    /* Color styles */
+    --yellow: #FDE00B;
+    --black: #131313;
+    --white: #FFFFFF;
+    --blue: #1942C7;
+    --red: #E50000;
+
+    /* Text-size styles */
+    --h1: 36px;
+    --h2: 30px;
+    --h3: 16px;
+    --body-intro: 20px;
+    --body-m: 16px;
+    --body-legend: 16px;
+    --button: 25px;
+}
