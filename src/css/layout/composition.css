@@ -1,5 +1,5 @@
 .header-container {
-    margin-top: -10px;
+    margin-top: 10px;
     display: flex;
     gap: 70px;
     justify-content: center;
@@ -21,6 +21,7 @@ hr {
 .header-cover {
     display: flex;
     justify-content: center;
+    margin-top: 10px;
 }
 
 img {
