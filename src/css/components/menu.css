@@ -8,3 +8,8 @@
     display: grid;
     place-content: center;
 }
+
+.header-menu-icone {
+    position: relative;
+    z-index: 10;
+}
