@@ -1,3 +1,7 @@
+body {
+    background-color: var(--black);
+}
+
 h1,
 h3,
 .button-text {
