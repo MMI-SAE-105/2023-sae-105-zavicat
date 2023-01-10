@@ -82,8 +82,9 @@ button {
 
 button::after {
     content: "";
-    width: 190px;
-    height: 48px;
+    position: absolute;
+    width: 182px;
+    height: 40px;
     border-width: 4px;
     border-style: solid;
     background-color: var(--blue);

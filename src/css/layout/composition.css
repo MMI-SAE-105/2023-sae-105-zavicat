@@ -17,6 +17,12 @@ hr {
     border: none;
 }
 
+
+.header-cover {
+    display: flex;
+    justify-content: center;
+}
+
 img {
     max-width: 100%
 }
@@ -24,4 +30,6 @@ img {
 .cover-img {
     margin-top: 27px;
     margin-bottom: 10px;
+    width: 320px;
+    display: flex;
 }
