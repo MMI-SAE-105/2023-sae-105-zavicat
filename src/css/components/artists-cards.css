@@ -9,6 +9,7 @@
     position: relative;
     border-width: 10px;
     border-color: var(--white);
+    width: 200px;
 }
 
 .artists-card-img::before {
