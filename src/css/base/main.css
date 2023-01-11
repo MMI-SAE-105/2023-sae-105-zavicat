@@ -111,3 +111,8 @@ button::after {
     right: -12px;
     z-index: -1;
 }
+
+.text-center {
+    text-align: center;
+    margin-bottom: 50px;
+}
