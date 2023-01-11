@@ -57,6 +57,7 @@ img {
 
 .photo-frame {
     width: 300px;
+    margin-bottom: 50px;
 }
 
 .photo-frame::before {
