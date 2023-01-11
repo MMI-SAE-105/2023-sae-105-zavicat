@@ -8,6 +8,10 @@ main {
     overflow: hidden;
 }
 
+a {
+    color: var(--white);
+}
+
 h1,
 h3,
 .buttont-text {
