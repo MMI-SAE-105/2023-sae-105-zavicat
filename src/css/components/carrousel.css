@@ -1,0 +1,30 @@
+.carrousel {
+    position: relative;
+}
+
+img {
+    margin-top: 0px;
+    max-width: 100%;
+    width: 200px;
+    height: 150px;
+}
+
+.carrousel-slides-images {
+    position: relative;
+}
+
+.carrousel-buttons-before,
+.carrousel-buttons-after {
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 30px;
+}
+
+.carrousel-buttons-before {
+    position: absolute;
+}
+
+.carrousel-buttons-after {
+    position: absolute;
+}
