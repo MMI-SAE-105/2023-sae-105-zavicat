@@ -1,0 +1,86 @@
+/*Contact form base setting*/
+input,
+textarea {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    outline: inherit;
+}
+
+/*Input settings*/
+input,
+textarea {
+    text-decoration-line: none;
+}
+
+/*Message box spacing*/
+.contact-message {
+    margin-top: 30px;
+}
+
+/*Space management*/
+.contact-titre-parent {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+}
+
+/*Box sizes and organization*/
+.contact-parent {
+    display: flex;
+    flex-direction: column;
+    padding-left: 46px;
+    padding-right: 46px;
+    margin-bottom: 80px;
+}
+
+/*Message box base settings*/
+.contact-textarea {
+    min-height: 228px;
+}
+
+/*Font settings and spacing*/
+.contact-nom,
+.contact-mail,
+.contact-objet {
+    margin-top: 30px;
+    border: 4px solid transparent;
+    padding: 5px;
+    font-family: "helvetica";
+    font-size: 16px;
+}
+
+/*Box border colors*/
+.contact-nom {
+    border-color: var(--red);
+}
+
+.contact-objet {
+    border-color: var(--blue);
+}
+
+.contact-mail {
+    border-color: var(--yellow);
+}
+
+/*Message box font*/
+.contact-textarea {
+    font-family: "helvetica";
+    font-size: 16px;
+}
+
+/*Contact button style*/
+.contact-btn {
+    margin-top: 50px;
+    color: var(--black);
+    background-color: var(--white);
+    border-color: var(--black);
+}
+
+.contact-btn::after {
+    background-color: var(--red);
+    border-color: var(--black);
+}

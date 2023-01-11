@@ -1,0 +1,98 @@
+/*Global container*/
+.carrousel-container {
+    display: flex;
+    justify-content: center;
+}
+
+/*White card background*/
+.carrousel-background {
+    position: relative;
+    margin-top: 50px;
+    width: 270px;
+    height: 335px;
+    background-color: var(--white);
+}
+
+/*Red duplicate*/
+.carrousel-background::before {
+    content: "";
+    width: 270px;
+    height: 340px;
+    background-color: var(--red);
+    bottom: 10px;
+    right: -10px;
+    position: absolute;
+    z-index: -1;
+}
+
+/*Placement settings*/
+.carrousel {
+    position: relative;
+}
+
+.carrousel-slides-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Image settings*/
+.carrousel-images {
+    position: absolute;
+    top: 40px;
+    left: 35px;
+    width: 200px;
+    height: 150px;
+    border: 3px solid var(--black)
+}
+
+.carrousel-slides-images {
+    position: relative;
+}
+
+/*Navigaion buttons settings*/
+.carrousel-buttons-before,
+.carrousel-buttons-after {
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 30px;
+}
+
+/*Navigation buttons style*/
+.carrousel-buttons-before {
+    position: absolute;
+    top: 100px;
+    left: -20px;
+    width: 200px;
+
+}
+
+.carrousel-buttons-after {
+    position: absolute;
+    top: 100px;
+    right: -200px;
+    width: 200px;
+}
+
+/*Legend style*/
+.carrousel-legend {
+    position: absolute;
+    bottom: -270px;
+    color: var(--black)
+}
+
+/*"Discover" button style*/
+.carrousel-button {
+    position: absolute;
+    bottom: -320px;
+    left: 40px;
+    background-color: var(--white);
+    border-color: var(--black);
+    color: var(--black);
+}
+
+.carrousel-button::after {
+    content: none;
+}

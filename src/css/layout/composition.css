@@ -1,38 +1,3 @@
-/*Header*/
-.header-container {
-    margin-top: 10px;
-    display: flex;
-    gap: 70px;
-    justify-content: center;
-}
-
-.header-logo {
-    display: flex;
-    gap: 20px;
-}
-
-/*Hader line spacer*/
-hr {
-    max-width: 100%;
-    height: 5px;
-    background-color: var(--white);
-    border: none;
-}
-
-/*Header cover image settings*/
-.header-cover {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-}
-
-.cover-img {
-    margin-top: 27px;
-    margin-bottom: 30px;
-    width: 320px;
-    display: flex;
-}
-
 /*Default images settings*/
 img {
     max-width: 100%
@@ -48,6 +13,7 @@ img {
     margin-bottom: 70px;
 }
 
+/*Photo frames*/
 .photo-frame-content {
     position: relative;
     display: flex;

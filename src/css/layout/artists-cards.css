@@ -1,0 +1,32 @@
+/*Unfinished -> issue with inspector*/
+
+/*Global container*/
+.artists-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+/*Artist cards*/
+.artists-card {
+    display: flex;
+    position: relative;
+    border-width: 10px;
+    border-color: var(--white);
+    width: 200px;
+}
+
+/*Magnifying glass icon*/
+.artists-card-img::before {
+    content: url(../../../public/img/icones/magnifying-glass.svg);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+/*Position settings (unfinished)*/
+.artists-mondrian {
+    position: absolute;
+    top: 0;
+}
