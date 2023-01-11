@@ -1,0 +1,34 @@
+.artworks-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.artworks-container::before {
+    content: url(../../../public/img/icones/artworks-cross.svg);
+    position: absolute;
+    top: -15px;
+    left: 30px;
+}
+
+.artworks-line-1 {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.artworks-line-2 {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.artworks-legend {
+    text-align: center;
+    line-height: 0px;
+}
+
+.artworks-img {
+    width: 100px;
+    height: 100px;
+}
