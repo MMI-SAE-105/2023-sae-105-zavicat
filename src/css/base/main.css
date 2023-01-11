@@ -4,6 +4,10 @@ body {
     padding: 20px;
 }
 
+main {
+    overflow: hidden;
+}
+
 h1,
 h3,
 .buttont-text {
