@@ -5,6 +5,7 @@
 
 .carrousel-background {
     position: relative;
+    margin-top: 50px;
     width: 270px;
     height: 335px;
     background-color: var(--white);
