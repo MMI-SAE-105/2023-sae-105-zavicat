@@ -8,20 +8,18 @@
 .artworks-container::before {
     content: url(../../../public/img/icones/artworks-cross.svg);
     position: absolute;
-    top: -15px;
-    left: 30px;
+    top: -30px;
+    left: 0px;
 }
 
 .artworks-line-1 {
     display: flex;
-    gap: 10px;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .artworks-line-2 {
     display: flex;
-    gap: 30px;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .artworks-legend {
@@ -30,6 +28,6 @@
 }
 
 .artworks-img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
