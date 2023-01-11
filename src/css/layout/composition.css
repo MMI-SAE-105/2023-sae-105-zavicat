@@ -58,11 +58,10 @@ img {
 .photo-frame {
     width: 300px;
     margin-bottom: 50px;
+    margin: auto;
 }
 
 .photo-frame::before {
     content: url(../../../public/img/icones/photo-frame.svg);
     position: absolute;
-    width: 100%;
-    height: 100%;
 }

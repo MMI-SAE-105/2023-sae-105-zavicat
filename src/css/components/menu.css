@@ -29,6 +29,7 @@
     grid-template-rows: repeat(8, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    ;
 }
 
 .menu-header-logo {
@@ -45,6 +46,8 @@
 
 .menu-home {
     grid-area: 3 / 1 / 4 / 6;
+    display: flex;
+    justify-content: center;
 }
 
 .menu-presentation {
