@@ -37,33 +37,38 @@
 
 .menu-presentation {
     position: absolute;
-    top: 500px;
-    left: 70px;
+    top: 280px;
+    left: 30px;
 }
 
 .menu-artists {
     position: absolute;
-    top: 300px;
-    left: 70px;
+    top: 340px;
+    left: 80px;
 }
 
 .menu-artworks {
     position: absolute;
-    top: 350px;
+    top: 400px;
     left: 50px;
 }
 
-
 .menu-infos {
     position: absolute;
-    top: 400px;
-    left: 115px;
+    top: 460px;
+    left: 40px;
 }
 
 .menu-contact {
     position: absolute;
-    top: 450px;
-    left: 50px;
+    top: 550px;
+    left: 135px;
+}
+
+.menu-billetterie {
+    position: absolute;
+    top: 650px;
+    left: 165px;
 }
 
 /*Components setting*/
@@ -71,7 +76,7 @@
     content: url(../../../public/img/icones/menu-component-1.svg);
     position: absolute;
     top: 180px;
-    left: 40px;
+    left: 20px;
 }
 
 .menu-component-2 {
@@ -84,6 +89,6 @@
 .menu-component-3 {
     content: url(../../../public/img/icones/menu-component-3.svg);
     position: absolute;
-    top: 500px;
-    left: 0px;
+    top: 460px;
+    left: 40px;
 }
