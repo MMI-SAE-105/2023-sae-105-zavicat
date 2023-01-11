@@ -96,6 +96,7 @@ button {
     background-color: var(--black);
     border-color: var(--white);
     color: var(--white);
+    cursor: pointer;
 }
 
 button::after {
