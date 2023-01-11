@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-<link rel="stylesheet" href="../src/css/style.css">
+<link rel="stylesheet" href="src/css/style.css">
 
 <body>
     <title>404 | Page non trouvée</title>
@@ -9,7 +9,7 @@
     <form action="https://google.com/" method="GET" x-data="{ q:'', }"
         x-on:submit="q = q + ' site:stijl-expo.zoevicat.fr'">
         <label for="q">
-            <p>Que cherchez-vous ?</p>
+            <p>Que recherchez-vous ?</p>
         </label>
         <input type="text" id="q" name="q" x-model="q">
         <button type="submit">
