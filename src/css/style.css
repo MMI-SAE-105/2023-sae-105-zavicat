@@ -12,15 +12,16 @@
 
 /*Composition*/
 @import "layout/composition.css";
+@import "layout/header.css";
+@import "layout/footer.css";
+@import "layout/menu.css";
+@import "layout/title-line.css";
+@import "layout/artists-cards.css";
+@import "layout/timeline.css;";
+@import "layout/artworks-list.css";
+@import "layout/box-containers.css";
+@import "layout/carrousel.css";
+@import "layout/form.css";
 
 /*Composants*/
-@import "components/header.css";
-@import "components/footer.css";
-@import "components/menu.css";
-@import "components/title-line.css";
-@import "components/artists-cards.css";
-@import "components/timeline.css;";
-@import "components/artworks-list.css";
-@import "components/box-containers.css";
-@import "components/carrousel.css";
-@import "components/form.css";
+@import "components/composants.css";
