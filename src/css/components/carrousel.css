@@ -10,6 +10,16 @@
     background-color: var(--white);
 }
 
+.carrousel-background::before {
+    content: "";
+    width: 270px;
+    height: 335px;
+    background-color: var(--red);
+    bottom: 10px;
+    right: -10px;
+    position: absolute;
+    z-index: -1;
+}
 
 .carrousel {
     position: relative;
