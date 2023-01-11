@@ -11,12 +11,57 @@
 </head>
 
 <header>
+
     <div class="header-container">
         <div class="header-logo">
             <img src="../public/img/icones/logo.svg" alt="logo StijlExpo">
             <h3>StijlExpo</h3>
         </div>
-        <img src="../public/img/icones/menu-icone.svg" alt="menu">
+        <div aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header-menu-icone">
+            <img src="../public/img/icones/menu-icone.svg" alt="menu">
+
+            <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
+                <ul>
+                    <div class="menu-container">
+                        <div class="menu-header-logo">
+                            <div class="header-logo">
+                                <img src="../public/img/icones/logo.svg" alt="logo StijlExpo">
+                                <h3>StijlExpo</h3>
+                            </div>
+                            <hr>
+                        </div>
+
+                        <div class="menu-title">
+                            <h2>MENU</h2>
+                        </div>
+                        <div class="menu-home">
+                            <h3><a href=index.html>Accueil</a></h3>
+                        </div>
+                        <div class="menu-presentation">
+                            <h3><a href=1-presentation.html>Le mouvement De Stijl</a></h3>
+                        </div>
+                        <div class="menu-artists">
+                            <h3><a href=2-artist.html>Les artistes</a></h3>
+                        </div>
+                        <div class="menu-artworks">
+                            <h3><a href=3-artwork.html>Les oeuvres</a></h3>
+                        </div>
+                        <div class="menu-infos">
+                            <h3><a href=4-infos.html>Infos pratiques</a></h3>
+                        </div>
+                        <div class="menu-contact">
+                            <h3><a href=5-contact.html>Contact</a></h3>
+                        </div>
+                        <div class="menu-billetterie">
+                            <h3><a href=#>Billetterie</a></h3>
+                        </div>
+                        <div class="menu-component-1"> </div>
+                        <div class="menu-component-2"> </div>
+                        <div class="menu-component-3"> </div>
+                    </div>
+                </ul>
+            </nav>
+        </div>
     </div>
     <hr>
 </header>
@@ -115,6 +160,7 @@
                 </span>
             </div>
         </section>
+
         <footer>
             <hr>
             <div class="header-logo">
